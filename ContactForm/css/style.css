@@ -188,6 +188,11 @@ body{
         width: 100%;
     }
 
+    body{
+    height: auto;
+
+}
+
     .contact-form__input--metade,
     .contact-form__input--quarto,
     .contact-form__input--terco {
@@ -195,7 +200,7 @@ body{
     }
 
     .contact-form__col-b {
-        flex-direction: column;
+        flex-wrap: wrap;
         gap: 15px;
         padding: 10px;
     }
@@ -207,7 +212,7 @@ body{
     }
 
     .header__text {
-        font-size: 13   ;
+        font-size: 13px;
     }
     
 }
