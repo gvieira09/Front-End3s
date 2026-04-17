@@ -1,0 +1,97 @@
+{
+  "posts": [
+    {
+      "id": "1",
+      "title": "a title",
+      "views": 100
+    },
+    {
+      "id": "2",
+      "title": "another title",
+      "views": 200
+    }
+  ],
+  "comments": [
+    {
+      "id": "1",
+      "text": "a comment about post 1",
+      "postId": "1"
+    },
+    {
+      "id": "2",
+      "text": "another comment about post 1",
+      "postId": "1"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "contatos": [
+    {
+      "nome": "Milena",
+      "sobrenome": "Mares",
+      "email": "maresmi@gmail.com",
+      "id": "WRmUHPdgcmA"
+    },
+    {
+      "nome": "julio",
+      "sobrenome": "goncavels",
+      "email": "julio@gmail.com",
+      "id": "1sNbXJQ4OqE"
+    },
+    {
+      "nome": "felipe",
+      "sobrenome": "goncavels",
+      "email": "felipe@gmail.com",
+      "id": "CZxrCLEtKxo"
+    },
+    {
+      "nome": "felipe",
+      "sobrenome": "torolho",
+      "email": "felipett@gmail.com",
+      "id": "K1tKGH1kXWw"
+    },
+    {
+      "nome": "guilherme",
+      "sobrenome": "lucca",
+      "email": "guilherme@gmail.com",
+      "id": "jyfhG7rvAIM"
+    },
+    {
+      "nome": "Guilherme",
+      "sobrenome": "Vieira",
+      "id": "VzYBq1Zm3tE"
+    },
+    {
+      "nome": "Guilherme",
+      "sobrenome": "Vieira",
+      "id": "3dFPpxZiBZQ"
+    },
+    {
+      "nome": "Guilherme",
+      "sobrenome": "Vieira",
+      "id": "A-m4guAUzs4"
+    }
+  ],
+  "produtos": [
+    {
+      "nome": "Whey",
+      "preco": "90,00",
+      "quantidade": "1",
+      "id": "2"
+    },
+    {
+      "nome": "Creatina",
+      "preco": "100,00",
+      "quantidade": "1",
+      "id": "lf-oKtthum4"
+    },
+    {
+      "nome": "Camisa",
+      "preco": "80,00",
+      "quantidade": "3",
+      "id": "zbEz1KoP0Oc"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
