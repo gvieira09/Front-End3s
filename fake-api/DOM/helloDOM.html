@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <body>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+
+        alert(`Titulo: ${document.getElementById("titulo").textContent}`);
+        
+        function saudacao(){
+        alert("Hello World!");
+        }
+       
+        function saudacaoLegal(){
+        alert("Olá amigo!");
+        }
+        
+        function mouseClicadoDuasVezes(){
+        alert("Mouse Clicado duas vezes!");
+        }
+       
+    </script>
+</head>
+
+    <h1 id="titulo">Bem-Vindo!</h1>
+
+    <p>Hello DOM JS</p>
+
+    <button onmouseup="saudacao();">Clica eu ai e solta</button>
+    <button ondblclick="saudacao();">Mouse clicado 2 vezes vacilao</button>
+    <button onmousedown="saudacao();">não precisa soltar</button>
+    <button onmouseover="saudacaoLegal();">Passe o rato aqui</button>
+    <button onclick="saudacaoLegal();">aperta eu</button>
+
+</body>
+</html>
