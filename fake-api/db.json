@@ -6,5 +6,15 @@
       "id": "zv7IHJWGWpU"
     }
   ],
+  "IMC": [
+    {
+      "nome": "Eduardo",
+      "altura": 1.67,
+      "peso": 85,
+      "IMC": 30.477966223242138,
+      "textoSituacao": "Obesidade Grau 1",
+      "id": "HtypZjzUkK8"
+    }
+  ],
   "$schema": "./node_modules/json-server/schema.json"
 }
