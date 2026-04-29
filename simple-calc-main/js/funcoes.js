@@ -77,10 +77,7 @@ function calcular() {
 
 }
 
-/**
- * Função somar recebe 2 valores e retorna a soma dos 
- * dois valores
- */
+
  function somar(valor1, valor2) {
     return valor1 + valor2;
 }

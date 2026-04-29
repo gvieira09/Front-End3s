@@ -47,6 +47,14 @@
       "IMC": 30.477966223242138,
       "textoSituaco": "Obesidade Grau 1",
       "id": "OrvN5XC4Bc8"
+    },
+    {
+      "nome": "Guilherme",
+      "altura": 1.77,
+      "peso": 70,
+      "IMC": 22.34351559258195,
+      "textoSituaco": "Saudavel",
+      "id": "AjDKoB8xfU8"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
